@@ -52,6 +52,7 @@ section#description-image > img {
     border-radius: 28px;
 }
 
+
 section#title-list {
     margin: 64px 0;
 }
@@ -62,22 +63,20 @@ section#title-list > section#title {
 
 h1, h2, h3 {
     color: var(--text-primary);
+    font-weight: bold;
 }
 
 h1 {
     font-size: 36px;
-    font-weight: bold;
 }
 
 h2 {
     font-size: 32px;
-    font-weight: bold;
     margin-top: 2px;
 }
 
 h3 {
     font-size: 28px;
-    font-weight: bold;
 }
 
 p {
