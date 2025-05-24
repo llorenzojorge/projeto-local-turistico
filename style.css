@@ -52,6 +52,9 @@ section#description-image > img {
     border-radius: 28px;
 }
 
+div.divisor {
+    border: 1px solid var(--border-primary);
+}
 
 section#title-list {
     margin: 64px 0;
