@@ -1,6 +1,7 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -21,4 +22,31 @@
     --accent-orange: #E95E10;
     --accent-pink: #E5245E;
     --accent-purple: #591B98;
+}
+
+body {
+    background-color: var(--background-default);
+}
+
+main#container {
+    margin: 88px auto 65px;
+    
+    /* BACKGROUND PARA VISUALIZAR A POSIÇÃO DO CONTAINER */
+    background-color: white;
+
+    width: 1120px;
+    height: 3054px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.headline {
+    color: var(--text-headline);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
