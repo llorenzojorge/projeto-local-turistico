@@ -64,6 +64,12 @@ section#title-list > section#title {
     margin-bottom: 8px;
 }
 
+.card-travel > img {
+    max-width: 1120px;
+    max-height: 350px;
+    border-radius: 28px;
+}
+
 h1, h2, h3 {
     color: var(--text-primary);
     font-weight: bold;
