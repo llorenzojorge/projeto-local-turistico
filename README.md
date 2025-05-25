@@ -5,7 +5,7 @@ Este é um projeto de página web estática criada com HTML e CSS, que apresenta
 ## 🔗 Acesse o projeto online
 Você pode visualizar o site publicado via GitHub Pages clicando no link abaixo:
 
-👉 [Acessar Conheça Busan]{https://llorenzojorge.github.io/projeto-local-turistico/)
+👉 [Acessar Conheça Busan](https://llorenzojorge.github.io/projeto-local-turistico/)
 
 ## ✨ Funcionalidades
 - Estrutura HTML semântica com seções bem definidas
