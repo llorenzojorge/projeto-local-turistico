@@ -57,7 +57,8 @@ div.divisor {
 }
 
 section#title-list {
-    margin: 64px 0;
+    margin-top: 64px;
+    margin-bottom: 16px;
 }
 
 section#title-list > section#title {
@@ -67,6 +68,9 @@ section#title-list > section#title {
 .card-travel > img {
     max-width: 1120px;
     max-height: 350px;
+
+    margin-top: 48px;
+    margin-bottom: 20px;
     border-radius: 28px;
 }
 
@@ -85,7 +89,13 @@ h2 {
 }
 
 h3 {
+    padding-left: 8px;
+    margin-bottom: 4px;
     font-size: 28px;
+}
+
+h6 {
+    font-size: 16px;
 }
 
 p {
@@ -105,4 +115,31 @@ p {
     font-style: italic;
     color: var(--text-secondary);
     text-align: center;
+}
+
+.accent-blue, .accent-orange, .accent-pink, .accent-purple {
+    font-weight: bold;
+}
+
+p.accent-blue::before, p.accent-orange::before, p.accent-pink::before, p.accent-purple::before {
+    content: '•';
+    color: var(--text-secondary);
+    font-size: 1.1em;
+    margin-right: 8px;
+}
+
+.accent-blue {
+    color: var(--accent-blue);
+}
+
+.accent-orange {
+    color: var(--accent-orange);
+}
+
+.accent-pink {
+    color: var(--accent-pink);
+}
+
+.accent-purple {
+    color: var(--accent-purple);
 }
