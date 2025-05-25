@@ -52,8 +52,16 @@ section#description-image > img {
     border-radius: 28px;
 }
 
+section#content-list {
+    margin-bottom: 40px;
+}
+
 div.divisor {
     border: 1px solid var(--border-primary);
+}
+
+div.divisor-final {
+    margin: 40px 0;
 }
 
 section#title-list {
@@ -100,6 +108,23 @@ h6 {
 
 p {
     font-size: 16px;
+}
+
+div.divisor + p {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+footer {
+  border-top: 1px solid transparent;
+}
+
+footer > p {
+    text-align: center;
+    
+    margin-top: 60px;
+    margin-bottom: 48px;
 }
 
 .headline {
