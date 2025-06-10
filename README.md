@@ -2,6 +2,8 @@
 
 Este é um projeto de página web estática criada com HTML e CSS, que apresenta um guia turístico visual e informativo sobre a cidade de Busan, na Coreia do Sul. O foco principal foi construir uma página com estrutura semântica, boas práticas de CSS e um design limpo e agradável inspirado em guias de viagem modernos.
 
+![Visual do projeto Busan](assets/preview.png)
+
 ## 🔗 Acesse o projeto online
 Você pode visualizar o site publicado via GitHub Pages clicando no link abaixo:
 
